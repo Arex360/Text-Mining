@@ -1,0 +1,27 @@
+{
+    "Cards":{
+        "RX 560":{
+            "isAvailible": true,
+            "Ram": "4GB",
+            "price": 15000,
+            "information": "The Radeon RX 560 is a mid-range graphics card by AMD, launched on April 18th, 2017. Built on the 14 nm process, and based on the Polaris 21 graphics processor, in its Polaris 21 XT variant, the card supports DirectX 12. This ensures that all modern games will run on Radeon RX 560. The Polaris 21 graphics processor is an average sized chip with a die area of 123 mm² and 3,000 million transistors. It features 1024 shading units, 64 texture mapping units, and 16 ROPs. AMD has paired 4 GB GDDR5 memory with the Radeon RX 560, which are connected using a 128-bit memory interface. The GPU is operating at a frequency of 1175 MHz, which can be boosted up to 1275 MHz, memory is running at 1750 MHz (7 Gbps effective)."
+        },
+        "RX 580":{
+            "isAvailible": false,
+            "Ram": "8GB",
+            "price": 28000,
+            "information": "The Radeon RX 580 is a performance-segment graphics card by AMD, launched on April 18th, 2017. Built on the 14 nm process, and based on the Polaris 20 graphics processor, in its Polaris 20 XTX variant, the card supports DirectX 12. This ensures that all modern games will run on Radeon RX 580. The Polaris 20 graphics processor is an average sized chip with a die area of 232 mm² and 5,700 million transistors. It features 2304 shading units, 144 texture mapping units, and 32 ROPs. AMD has paired 8 GB GDDR5 memory with the Radeon RX 580, which are connected using a 256-bit memory interface. The GPU is operating at a frequency of 1257 MHz, which can be boosted up to 1340 MHz, memory is running at 2000 MHz (8 Gbps effective"
+        },
+        "GTX 1080 Ti":{
+            "isAvailible": true,
+            "Ram": "11GB",
+            "price": 90000,
+            "information": "The GeForce GTX 1080 Ti is an enthusiast-class graphics card by NVIDIA, launched on March 10th, 2017. Built on the 16 nm process, and based on the GP102 graphics processor, in its GP102-350-K1-A1 variant, the card supports DirectX 12. This ensures that all modern games will run on GeForce GTX 1080 Ti. The GP102 graphics processor is a large chip with a die area of 471 mm² and 11,800 million transistors. Unlike the fully unlocked TITAN Xp, which uses the same GPU but has all 3840 shaders enabled, NVIDIA has disabled some shading units on the GeForce GTX 1080 Ti to reach the product's target shader count. It features 3584 shading units, 224 texture mapping units, and 88 ROPs. NVIDIA has paired 11 GB GDDR5X memory with the GeForce GTX 1080 Ti, which are connected using a 352-bit memory interface. The GPU is operating at a frequency of 1481 MHz, which can be boosted up to 1582 MHz, memory is running at 1376 MHz (11 Gbps effective)."
+        }
+    },
+    "OS_Calls":{
+        "notepad": "notepad",
+        "shutdown": "shutdown",
+        "restart": "restart"
+    }
+}

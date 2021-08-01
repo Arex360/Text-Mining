@@ -1,0 +1,40 @@
+{
+    "DataSet": {
+        "Statement1":{
+            "statement": "hello there || hi || hola || excuse me",
+            "intent": "name"
+        },
+        "Statement2":{
+            "statement": "I want {vga_name} || what is {vga_name}",
+            "intent": "Graphic_cards_information"
+        },
+        "Statement3":{
+            "statement": "Give me information about {vga_name}",
+            "intent": "Question"
+        },
+        "Statement4":{
+            "statement": "What is {vga_name}",
+            "intent": "Question"
+        },
+        "Statement5":{
+            "statement": "yo say {vga_name}",
+            "intent": "Question"
+        },
+        "Statement6":{
+            "statement": "ram of {vga_name} || memory of {vga_name}",
+            "intent": "Ram_question"
+        },
+        "Statement7":{
+            "statement":"What will be the price of {num} {vga_name}",
+            "intent": "Quantity"
+        },
+        "Statement8":{
+            "statement":"Please open {cmd}",
+            "intent": "System" 
+        },
+        "Statement9":{
+            "statement": "Is {vga_name} availible || is {vga_name} in stock?",
+            "intent": "Availibilty"
+        }
+    }
+}
