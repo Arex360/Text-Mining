@@ -9,7 +9,7 @@
             "intent":"name"
         },
         "Statement2":{
-            "statement": "I want {vga_name} || what is {vga_name}",
+            "statement": "I want {vga_name} || what is {vga_name} || tell me about {vga_name}",
             "intent": "Graphic_cards_information"
         },
         "Statement3":{
@@ -41,7 +41,7 @@
             "intent": "Availibilty"
         },
         "Statement10":{
-            "statement": "What is time? || tell me the time? || about the time",
+            "statement": "What is time? || tell me the time? || the time",
             "intent": "time"
         }
     }
