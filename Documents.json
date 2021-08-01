@@ -4,6 +4,10 @@
             "statement": "hello there || hi || hola || excuse me",
             "intent": "name"
         },
+        "Statement":{
+            "statement": "Hi",
+            "intent":"name"
+        },
         "Statement2":{
             "statement": "I want {vga_name} || what is {vga_name}",
             "intent": "Graphic_cards_information"
@@ -35,6 +39,10 @@
         "Statement9":{
             "statement": "Is {vga_name} availible || is {vga_name} in stock?",
             "intent": "Availibilty"
+        },
+        "Statement10":{
+            "statement": "What is time? || tell me the time? || about the time",
+            "intent": "time"
         }
     }
 }

@@ -15,6 +15,11 @@ commands.forEach(cmd=>{
     osCommands.addMatch(cmd,cmd)
 })
 nlp.addEntity(osCommands)
+
+
+let time = new Bravey.StringEntityRecognizer("time")
+time.addMatch("time","time")
+nlp.addEntity(time)
 module.exports = {
     nlp: nlp
 }

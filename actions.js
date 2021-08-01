@@ -15,10 +15,10 @@ let actions = {
     },
     Quantity: e=>{
         const out = info.Cards[e.entitiesIndex.vga_type.value].price * parseInt(e.entitiesIndex.quantity.string)
-        return out
+        return out.toString()
     },
     name: e=>{
-        return "I am arex"
+        return "Hey,I am arex.. How are you doing today?"
     },
     System: e=>{
         exec(info.OS_Calls[e.entitiesIndex.command.value])
@@ -31,6 +31,10 @@ let actions = {
         }else{
             return "No, its not availible"
         }
+    },
+    time: e=>{
+        let time = new Date().toLocaleTimeString()
+        return `its ${time} sir`
     }
 }
 module.exports = {
