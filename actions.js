@@ -14,11 +14,16 @@ let actions = {
         return out
     },
     Quantity: e=>{
+       try{
         const out = info.Cards[e.entitiesIndex.vga_type.value].price * parseInt(e.entitiesIndex.quantity.string)
         return out.toString()
+       }catch(e){
+        const out = info.Cards[e.entitiesIndex.vga_type.value].price 
+        return out.toString()
+       }
     },
     name: e=>{
-        return "Hey,I am arex.. How are you doing today?"
+        return "Hey,I am arex.. How are you doing"
     },
     System: e=>{
         exec(info.OS_Calls[e.entitiesIndex.command.value])
